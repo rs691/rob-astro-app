@@ -7,7 +7,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://rstewart.me/rob-astro-app/',
+    site: 'https://rstewart.me/',
     base: '/rob-astro-app',
     integrations: [mdx(), sitemap(), react()],
 });
