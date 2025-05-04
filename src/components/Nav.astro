@@ -31,7 +31,7 @@ const isCurrentPage = (href: string) => {
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
-			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
+			<Icon icon="code-block" color="var(--accent-regular)" size="1.7em" gradient />
 			Robert Stewart
 		</a>
 		<menu-button>
@@ -156,7 +156,8 @@ const isCurrentPage = (href: string) => {
 
 	.site-title {
 		display: flex;
-		gap: 0.5rem;
+		font-size: var(--text-xl);
+		gap: 0.6rem;
 		align-items: center;
 		line-height: 1.1;
 		color: var(--gray-0);
@@ -169,7 +170,7 @@ const isCurrentPage = (href: string) => {
 		border: 0;
 		border-radius: 999rem;
 		padding: 0.5rem;
-		font-size: 1.5rem;
+		font-size: var(--text-xl);
 		color: var(--gray-300);
 		background: radial-gradient(var(--gray-900), var(--gray-800) 150%);
 		box-shadow: var(--shadow-md);
@@ -205,8 +206,8 @@ const isCurrentPage = (href: string) => {
 		margin: 0;
 		display: flex;
 		flex-direction: column;
-		gap: 1rem;
-		font-size: var(--text-md);
+		gap: 1.3rem;
+		font-size: var(--text-base);
 		line-height: 1.2;
 		list-style: none;
 		padding: 2rem;
@@ -218,6 +219,7 @@ const isCurrentPage = (href: string) => {
 		display: inline-block;
 		color: var(--gray-300);
 		text-decoration: none;
+		font-size: var(--text-base);
 	}
 
 	.link[aria-current] {

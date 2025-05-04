@@ -32,6 +32,9 @@ const { data, id } = Astro.props.project;
 
 	.card:hover {
 		box-shadow: var(--shadow-md);
+		transform: scale(1.04); /* Added hover effect */
+		
+		transition: box-shadow var(--theme-transition), transform var(--theme-transition); /* Updated transition for smooth scaling and shadow */
 	}
 
 	.title {

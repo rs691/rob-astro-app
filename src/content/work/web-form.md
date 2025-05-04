@@ -1,7 +1,7 @@
 ---
 title: Project 1
 publishDate: 2022-03-02 00:00:00
-img: /src/assets/stock-1.jpg
+img: /src/assets/backBlueDesign.png
 img_alt: icon
 description: |
  Interactive Web Form
