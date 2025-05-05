@@ -1,1 +1,2 @@
-# Basic Personal Project Using Astro and Learning Typescript
+# Robert Stewart
+## Software Developer
